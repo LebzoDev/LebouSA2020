@@ -1,0 +1,104 @@
+body{
+	background-color: #001a33;
+	width: 100%;
+	color: white;
+}
+.barreSeparation{
+	width: 100%;
+	height: 30px;
+	background-color: #ffffff;
+	margin: 0px auto;
+
+}
+.barreSeparationPetite{
+	width: 100%;
+	height: 20px;
+	background-color: #ffffff;
+	margin: 0px auto;
+}
+.valider{
+	margin: 0px auto;
+	color: #001a33;
+	cursor: pointer;
+	font-size: 20px solid black;
+	width: 20vw;
+	height: 50px;
+	border: 3px solid #001a33;
+}
+.message1{
+	text-align: center;
+	font-size: 4vw;
+	font-family: OPEN SANS;
+}
+.message2{
+	text-align: center;
+	font-size: 4vw;
+	font-family: OPEN SANS;
+}
+.mess{
+	text-align: center;
+	font-size: 3vw;
+	font-family: OPEN SANS;
+}
+.message3{
+	margin: 0px auto;
+	text-align: center;
+	font-size: 4vw;
+	font-family: OPEN SANS;
+}
+.marge{
+	margin:0px auto;
+	width: 90%;
+	font-size: 20px;
+	font-family: HELVETICA NEUE;
+}
+.marge1{
+	margin:0px auto;
+	width: 90%;
+	font-size: 30px;
+	font-family: HELVETICA NEUE;
+	color: red;
+	cursor: context-menu;
+}
+.resultats{
+	margin: 0px auto;
+	background-color: green;
+	text-align: center;
+	width: 80vw;
+	border: 4px solid white;
+	font-size: 3vw;
+	border-bottom: none;
+	border-top:none; 
+	font-family: HELVETICA NEUE;
+}
+.pourcentage{
+	margin: 20px auto;
+	text-align: center;
+	font-size: 4vw;
+	background-color: green;
+	width: 60vw;
+	border: 10px solid #ffffff;
+	border-radius: 5px;
+}
+.first{
+	width: 100%;
+	background-color: yellow;
+	height: 50px;
+	padding: 0px auto;
+	border-bottom: 4px solid #001a33;
+}
+.second{
+	width: 70%;
+	background-color: #ffffff;
+	color: #001a33;
+	margin: 0px auto;
+	float: left;
+	height: 50px;
+}
+.third{
+	width: 30%;
+	background-color: red;
+	margin: 0px auto;
+	float: right;
+	height: 50px;
+}

@@ -1,0 +1,87 @@
+body{
+	background-color: #001a33;
+	width: 100%;
+	color: white;
+}
+table{
+	border-collapse: collapse;
+	border:2px solid #3399ff;
+}
+table, th, td {
+  border: 3px solid white;
+  padding: 15px 10px;
+  margin: 0px auto;
+}
+.cadre{
+	text-align: center;
+	margin: 10px auto;
+	width: 50%;
+	background-color:#353436;
+	color: white;
+	border:4px white solid;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: OPEN SANS;
+}
+.entree1{
+	width: 50%;
+	height: 30px;
+}
+.entree2{
+	width: 30%;
+	height: 50px;
+	cursor: pointer;
+	font-size: 25px;
+	background-color: #001a33;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	border-radius: 7px;
+}
+.nombre{
+	width: 50%;
+	height: 30px;
+}
+.barreSeparation{
+	width: 100%;
+	height: 20px;
+	background-color: #ffffff;
+	margin: 0px auto;
+
+}
+.TitreTabSup{
+	margin-top: 5px;
+	background-color: #001a33;
+	height: 50px;
+	text-align: center;
+	width: 100%;
+	font-size: 40px;
+}
+.clic{
+	border: 5px solid #001a33;
+	border-radius: 5px;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	background-color:#ffffff;
+	font-size: 20px;
+}
+.clic:hover{
+	border: 5px solid #ffffff;
+	border-radius: 5px;
+	text-decoration: none;
+	background-color: #001a33;
+	font-size: 20px;
+}
+.click{
+	color: #001a33;
+	text-decoration: none;
+}
+.click:hover{
+	color: white;
+	text-decoration: none;
+}
+.pages{
+	text-align: center;
+	background-color: #ffffff;
+	margin: 10px auto;
+}
