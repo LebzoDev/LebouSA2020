@@ -41,30 +41,44 @@ function Taille($tableau){
 
 <?php 
 //Nous allons tenter de recuperer l'ensemble des phrases qui respectent les regles.
-preg_match_all("#[A-Z]{1}[^(\.)(\!)(\?)]{1,199}[(\.)(\!)(\?)]#m", $_POST['message'],$phrase);
+preg_match_all("#[A-Za-z]{1}([^.!?]|([.][0-9])){1,199}[.!?]#m", $_POST['message'],$phrase);
+
 
 //Recuperation des phrases et l'insertion dans un tableau...
-	$i=0;
 	foreach ($phrase[0] as $value)
 	{
 		$value = preg_replace('#\s\s+#'," ", $value);
-		$value = preg_replace('#(\')\s+#', "'", $value);
-		$value = preg_replace('#\s+(\')#', "'", $value);
+		$value = preg_replace('#\(\s+#', "(", $value);
+		$value = preg_replace('#\s+\)#', ")", $value);
+		$value = preg_replace('#\'\s+#', "'", $value);
+		$value = preg_replace('#\s+\'#', "'", $value);
+		$value = preg_replace('#\’\s+#', "’", $value);
+		$value = preg_replace('#\s+\’#', "’", $value);
 		$value = preg_replace('#\s+,#', ",", $value);
 		$value = preg_replace('#,\s+#', ", ", $value);
-		$value = preg_replace('#\s+(\.)#', ".", $value);
-		$Tableau[$i]= $value;
-		$i++; 
+		$value = preg_replace('#\s+\.#', ".", $value);
+		$Tableau[]= $value; 
 	}	
+
+
+	foreach ($Tableau as $value){ 
+	if (preg_match("#^[a-z]#", $value)){
+		$b=strtoupper($value[0]);
+		$value = preg_replace("#^[a-z]#",$b, $value);
+		$TabCorrige[] = $value; 
+	}
+	else
+		$TabCorrige[] =$value; 
+	}
 
 
 ?>
 	<p>
 		<div class="message3">
 		<textarea class="marge" style="cursor: context-menu;" name="message" cols="100" rows="10"><?php 
-			if (Taille($Tableau)>0)
+			if (Taille($TabCorrige)>0)
 			{
-				foreach($Tableau as $data)
+				foreach($TabCorrige as $data)
 				{
 					echo $data." ";
 				}
