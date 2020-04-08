@@ -1,0 +1,170 @@
+body{
+	margin: 0px auto;
+	background: #343233;
+}
+table{
+	width: 100%;
+	margin: 0px 0px;
+}
+table tr th td{
+	margin: 0px 0px;
+	border: 1px solid #2e4a9e; 
+	background-color: #99b3ff;
+}
+td{
+	margin: 0px 0px;
+	height: 25px;
+	border:1px solid white;
+}
+th{
+	padding: auto 5px;
+	margin: 0px 0px;
+	height: 25px;
+	border:2px solid white;
+}
+.Titre{
+	border-left: 25px solid #EFDAB9;
+	border-right: 25px solid #EFDAB9;
+	color: #EFDAB9;
+	margin-top: 5vw;
+	text-align: center;
+	font-size: 9vw;
+	border-collapse: 5px;
+}
+.barre{
+	width: 75%;
+	margin: 15px auto;
+	height: 8px; 
+	background: #EFDAB9;
+}
+.barreGrande{
+	width: 100%;
+	margin: 15px auto;
+	height: 20px; 
+	background: #EFDAB9;
+}
+.ZoneDeTexte{
+	width: 70%;
+	left: 25%;
+	margin: 10px auto;
+	text-align: left;
+	color: #EFDAB9; 
+	background: none;
+	font-size: 2.5vw;
+}
+.ChampDeChoix{
+	height: auto;
+	width: 70%;
+	margin: 0px auto;
+	background: #EFDAB9;
+}
+.entree1{
+	width: 40%;
+	margin-top: 1%;
+	margin-right: 20%;
+	height: 1.5vw;
+	float: right;
+}
+.satisfaction{
+	color: #343233;
+	text-align: center;
+	width: 35%;
+	height: auto;
+	background: #EFDAB9;
+	font-size: 3vw;
+	float: left;
+}
+.choix{
+	border-right: 5px solid #EFDAB9;
+	border-bottom: 1px solid #EFDAB9;
+	height: 100%;
+	width: 65%;
+	width: 100%;
+	text-align: center;
+	background: #343233;
+	color: #EFDAB9;
+}
+.etiquette{
+	font-size: 2vw;
+}
+.entree2{
+	width: 5%;
+}
+.commentaire{
+	margin: 0px auto;
+	color: #EFDAB9;
+	height: 7vw;
+	background: red;
+	width: 50%;
+}
+.commentitre{
+	color: #EFDAB9;
+	text-align: center;
+	margin: 0px auto;
+	font-size: 4vw;
+	width: 70%;
+}
+.validation{
+	height: 7.5vw;
+	background: #EFDAB9;
+	margin: 10px auto;
+	width: 70%;
+	transition: 2.8s;
+}
+.validation:hover{
+	height: 7.5vw;
+	background: white;
+	margin: 10px auto;
+	width: 70%;
+	transition: 1.8s;
+}
+.valider{
+	color: #EFDAB9;
+	font-size: 2vw;
+	margin-top: 2vw;
+	margin-right: 5vw;
+	float: right;
+	width: 15vw;
+	height: 3.5vw;
+	background: #343233;
+	cursor: pointer;
+}
+.reinitialiser{
+	color: #EFDAB9;
+	font-size: 2vw;
+	margin-top: 2vw;
+	margin-left: 5vw;
+	float: left;
+	width: 15vw;
+	height: 3.5vw;
+	background: #343233;
+	cursor: pointer;
+}
+.entree3{
+	width: 100%;
+	height: 100%;
+}
+.resultat{
+	color: #EFDAB9;
+	background: #2C2A2B;
+	width: 100%;
+	text-align: center;
+	font-family: OPEN SANS;
+	font-size: 5vw;
+}
+.tableau{
+	color: #EFDAB9;
+	background: #2C2A2B;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5vw;
+	transition: 2.8s;
+}
+.tableau:hover{
+	color: #2C2A2B;
+	background: #EFDAB9;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5vw;
+	transition: 2.8s;
+}
