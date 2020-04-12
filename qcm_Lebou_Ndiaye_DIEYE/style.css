@@ -1,0 +1,104 @@
+.imageBackGround{
+	background-image: url('Images/img-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: 0px auto;
+}
+.header1{
+	width:100%;
+	background-color: #003333;
+	color: #ffffff;
+}
+.logohead{
+	float: left;
+	height: 7vw;
+	margin-left: 3%;
+}
+.titrehead{
+	font-size: 5vw;
+	width: 60%;
+	color: white;
+	text-align: center;
+	margin: 0px auto;
+	font-family: OPEN SANS;
+	padding-top: 1%;
+}
+.espaceConnexion{
+	width: 45%;
+	background-color: #e6e6e6;
+	padding-bottom:0px; 
+	margin: 10vh auto;
+}
+.LoginForm{
+	color: #ffffff;
+	width: 97.05%;
+	text-align: left;
+	background-color: #4dd2ff;
+	font-size: 3vw;
+	padding-left: 3%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.espaceLogin_Mdp{
+	border: ;
+	width: 80%;
+	height: 10vh;
+	background-color: #E8F0FE;
+	margin: 4% auto;
+	border: 2px solid #B9B9B9;
+	border-radius: 5px;
+}
+input{
+	border: none;
+}
+.login{
+	width: 80%;
+	height: 95%;
+	background-color: #E8F0FE;
+	text-align: center;
+	border-radius: 5px;
+}
+.iconeEspace{
+	float: right;
+	text-align: center;
+	width: 20%;
+	height: 100%;
+	background-color: #E8F0FE;
+}
+.iconeConnexion1{
+	background-color: blue;
+}
+.inscription1{
+	cursor: pointer;
+	width: 80%;
+	height: 15%;
+	background-color: #e6e6e6;
+	margin: 4% auto;
+	border-radius: 5px;
+}
+.connexion{
+	font-family: OPEN SANS;
+	font-size: 1.5vw;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: center;
+	float: left;
+	width: 30%;
+	background-color: #4dd2ff;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+.inscrire{
+	cursor: pointer;
+	font-family: OPEN SANS;
+	font-size: 1.5vw;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: center;
+	float: left;
+	width: 70%;
+	border-radius: 5px;
+	color: black;
+}
