@@ -22,21 +22,20 @@ session_start();
 		<div class="espaceLogin_Mdp">
 			<input class="login" type="texte" name="login">
 			<div class="iconeEspace">
-				<p align="center">
+			<div class="icone1">
 			<img src="Images/Icônes/ic-login.png">
-			</p>
+			</div>
 			</div>
 		</div>
 		<div class="espaceLogin_Mdp">
 			<input class="login" type="password" name="password">
 			<div class="iconeEspace">
-				<p align="center">
+				<div class="icone1">
 				<img src="Images/Icônes/ic-password.png">
-				</p>
+				</div>
 			</div>
 		</div>
-		<div class="inscription">
-			
+		<div class="inscription1">
 				<strong><input class="connexion" type="submit" name="connexion" value="Connexion"> </strong>
 				<strong><input class="inscrire" type="submit" name="sinscrire" value="S'inscire pour jouer ???"> </strong>
 		</div>
@@ -59,6 +58,7 @@ $obj = json_decode($data, false);
  		if ($_POST['login']==$value->login AND $_POST['password']==$value->password) {
  			$user=$value->login;
  			$mdp=$value->password;
+ 			$_SESSION['pp']=$value->photoprofile;
  			$_SESSION['login']=$value->login;
  			$_SESSION['password']=$value->password;
  			$_SESSION['prenom']=$value->prenom;
@@ -79,7 +79,7 @@ $obj = json_decode($data, false);
 			<?php
 			}
  }
- echo "<hr>";
+ echo "<hr style='background:transparent; height:5px;border:none;'>";
 ?>
 
 		
