@@ -1,4 +1,6 @@
 	[{
+		"photoprofile" : "profile.png",
+		"id" : 12,
 		"prenom" : "Amadou",
 		"nom" : "NDIAYE",
 		"utilisateur" : "administrateur",
@@ -6,6 +8,7 @@
 		"password" : "passer"
 	},
 	{
+		"photoprofile" : "profile.png",
 		"prenom" : "Salymata",
 		"nom" : "DIEYE",
 		"utilisateur" : "joueur",
