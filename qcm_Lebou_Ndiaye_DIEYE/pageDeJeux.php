@@ -4,7 +4,7 @@ session_start();
 if (isset($_POST['deconnexion'])){
 	header('Location: deconnexion.php');
 }
-if (!isset($_SESSION['login'])){
+if (!isset($_SESSION['login']) OR !isset($_SESSION['password'])){
 	header('Location: index.php');
 }
 ?>
@@ -15,7 +15,7 @@ if (!isset($_SESSION['login'])){
 	<title>Page d'accueil</title>
 	<link rel="stylesheet" type="text/css" href="pageDeJeux.css">
 </head>
-<body>
+<body class="imageBackGround">
 
 <div class="header1">
 		<img class="logohead" src="Images/logo-QuizzSA.png">
@@ -27,8 +27,16 @@ if (!isset($_SESSION['login'])){
 		<form method="post" action="">
 		<div class="barreDeconnexion">
 			<div class="profile">
-				<div style="margin-left: 5%; border: 2px solid black;width: 7vw; height: 7vw; float: left;">
-					profil
+				<div style="margin-left: 5%; border: none;width: 7vw; height: 7vw; float: left;">
+			<?php
+			if (!isset($_FILES['avatar'])){
+			?>	
+
+							<img style="border:2px solid black; border-radius: 50%; width: 100%; height: 100%;"; src="membres/avatar/<?php  echo $_SESSION['pp'];?>" />.
+			<?php
+				echo $_SESSION['id'];
+				}
+			?>
 			</div>
 			</div>
 			<div class="titreDeconnect">
