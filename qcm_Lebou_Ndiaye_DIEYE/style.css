@@ -29,6 +29,7 @@
 	background-color: #e6e6e6;
 	padding-bottom:0px; 
 	margin: 10vh auto;
+	padding-bottom: 5vh;
 }
 .LoginForm{
 	color: #ffffff;
@@ -41,30 +42,34 @@
 	padding-bottom: 5%;
 }
 .espaceLogin_Mdp{
-	border: ;
 	width: 80%;
-	height: 10vh;
+	min-height: 10vh;
 	background-color: #E8F0FE;
 	margin: 4% auto;
 	border: 2px solid #B9B9B9;
 	border-radius: 5px;
-}
-input{
-	border: none;
+	overflow: hidden;
 }
 .login{
-	width: 80%;
-	height: 95%;
+	border:none;
+	width: 75%;
+	height: 9.5vh;
 	background-color: #E8F0FE;
 	text-align: center;
 	border-radius: 5px;
 }
 .iconeEspace{
 	float: right;
+	margin-left: 0px;
 	text-align: center;
 	width: 20%;
 	height: 100%;
 	background-color: #E8F0FE;
+}
+.icone1{
+	width: auto;
+	background: none;
+	padding-top: 25%;
 }
 .iconeConnexion1{
 	background-color: blue;
