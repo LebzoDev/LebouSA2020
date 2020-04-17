@@ -1,0 +1,392 @@
+.imageBackGround{
+	background-image: url('Images/img-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: 0px auto;
+}
+.header1{
+	width:100%;
+	background-color: #042425;
+	color: #ffffff;
+}
+.logohead{
+	float: left;
+	height: 7vw;
+	margin-left: 3%;
+}
+.titrehead{
+	font-size: 5vw;
+	width: 60%;
+	color: white;
+	text-align: center;
+	margin: 0px auto;
+	font-family: OPEN SANS;
+	padding-top: 1%;
+}
+.general{
+	width: 95%;
+	background-color:#C4C4C4;
+	margin: 1vw auto;
+	height: 1000px;
+}
+.barreDeconnexion{
+	color: #ffffff;
+	width: 100%;
+	background-color: #51bfd0;
+	font-size: 3vw;
+	margin: 0px auto;
+	height: 7vw;
+}
+.titreDeconnect{
+	text-align: center;
+	font-size: 2.5vw;
+	float: left;
+	width: 80%;
+	height: 100%;
+	background-color: #51bfd0;
+}
+.buttonDeconnect{
+	text-align: center;
+	float: right;
+	width: 20%;
+	height: 100%;
+	background: #51bfd0;
+}
+.deconnexion{
+	margin: 1.5vw;
+	height: 4vw;
+	color: #ffffff;
+	background: #3addd6;
+	width: 70%;
+	cursor: pointer;
+	font-size: 1.5vw;
+	border-radius: 5px;
+}
+.general2{
+	width: 98%;
+	background-color: blue;
+	height: 700px;
+	margin: 0px auto;
+}
+.gauche{
+	float: left;
+	margin-top: 3vw;
+	width: 35%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-left: 3vw;
+}
+.droite{
+	float: right;
+	margin-top: 1vw;
+	padding-bottom: 1vw;
+	width: 58%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-right: 3vw;
+}
+.droiteLQJ{
+	float: right;
+	margin-top: 1vw;
+	width: 58%;
+	height: 45vw;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-right: 3vw;
+}
+.avatar{
+	padding-top: 5%;
+	width: 100%;
+	height: 12vw;
+	background: linear-gradient( white, #51bfd0);
+}
+.entree1{
+	width: 90%;
+	height: 2.5vw;
+	border-radius: 5px;
+}
+.entree2{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	border-left: 0.5vw solid #ffffff;
+	width: 98.5%;
+	background: #ffffff;
+	height: 6vw;
+	font-size: 2vw;
+}
+.entree2hover{
+	width: 98.5%;
+	border-left: 0.5vw solid green;
+	height: 6vw;
+	font-size: 2vw;
+}
+.entree3{
+	width: 80%;
+	float: left;
+	height: 100%;
+	font-size: 2vw;
+	cursor: pointer;
+	background: #ffffff;
+	border: none;
+}
+.entree3:hover{
+	width: 80%;
+	float: left;
+	height: 100%;
+	font-size: 2vw;
+	cursor: pointer;
+	background: #dadada;
+	border: none;
+}
+.entree4{
+	width: 20%;
+	height: 100%;
+	float: right;
+	background: #ffffff;
+}
+.CAbarre1{
+	margin-top:0px;
+	margin-bottom: -1vh;
+	height:0px;
+}
+.CAbarre2{
+	font-size: 1vw;
+	color: grey;
+}
+.CAbarre3{
+	width: 60%;
+	height: 0.5px;
+	background: white;
+	margin-left: 0px;
+}
+.creatAdmintitre{
+	width:40%;
+	background-color:#ffffff;
+	font-size: 2vw;
+	text-align: center;
+	font-family: OPEN SANS;
+	margin-left: 3vw;
+}
+.ppavatar{
+	border:2px solid #51bfd0;
+	border-radius: 50%;
+	width: 15vw; 
+	height: 15vw;
+}
+.pp{
+	float: right;
+	background:none;
+	width: 30%;
+	height: 15vw;
+	border: none;
+	border-radius: 5px;
+	margin-right: 1vw;
+	margin-top: 10vh;
+	text-align: center;
+}
+.etiquette{
+	font-size: 2vw;
+	color: #818181;
+}
+.etiquettejoueur{
+	font-size: 2vw;
+	color: black;
+}
+.general1{
+	width: 90%;
+	margin: 5vh auto;
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	height: 65vw;
+}
+.pp1{
+	float: right;
+	height: 20vw;
+	width: 20vw;
+	border: none;
+	border-radius: 5px;
+	margin-right: 10%;
+	margin-top: 15vh;
+	text-align: center;
+}
+.imagepp{
+	border:0.5vw solid #51bfd0;
+	border-radius: 50%;
+	width: 20vw;
+	height: 100%;
+}
+.titlecomptuser{
+	width:40%;
+	font-size: 2vw;
+	text-align: center;
+	font-family: OPEN SANS;
+	margin-left: 3vw;
+}
+.titre3{
+	margin-top: 2vh;
+	margin-bottom: 0vh;
+	padding: 0px;
+}
+.barre3{
+	display: none;
+	margin-top:0px;
+	margin-bottom: -1vh;
+	height:0px;
+}
+.titre4{
+	margin-top: 2vh;
+	margin-bottom: 0vh;
+}
+.barre4{
+	width: 60%;
+	height: 2px;
+	background: white;
+	margin-left: 0px;
+}
+.informations{
+	color: black;
+	width: 50%;
+	margin: 2vw;
+	padding: 2vw;
+}
+.CAdiv{
+	width: 65%;
+	margin-left: 1.2vw;
+}
+.avatarAccueil{
+	margin-left: 5%;
+	border: none;
+	width: 8.5vw;
+	height: 8.5vw;
+	float: left;
+}
+.ppaccueil{
+	border:0.5px solid #818181;
+	padding: 1vw;
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+}
+.avatar1{
+	font-size: 2.5vw;
+	margin-left: 3vw;
+	height: 3vw;
+	width: 30%;
+	float: left;
+}
+.avatar2{
+	font-size: 1.5vw;
+	float: left;
+	width: 30%;
+	height: 3vw;
+	margin-left: 2vw;
+	color: #ffffff;
+	background: #ffffff;
+	border-radius: 5px;
+}
+.avatar3{
+	float: left;
+	width: 40%;
+	background: #51bfd0;
+	height: 4vw;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+	margin-left: 30%;
+	border-radius: 5px;
+	font-size: 2vw;
+	cursor: pointer;
+}
+.prenom{
+	width: 20%;
+	border:none;
+	float: left;
+	margin-top: 10%;
+	font-size: 2vw;
+	margin-left: 2vw;
+}
+.nom{
+	width: 20%;
+	border: none;
+	float: left;
+	margin-top: 12%;
+	font-size: 2vw;
+	margin-left: -2vw;
+}
+.titreCQ{
+	width:90%;
+	font-size: 2vw;
+	text-align: left;
+	font-family: OPEN SANS;
+	margin: 1vw auto ;
+}
+.titreCQ1{
+	font-family: Helvetica;
+	color: #51bfd0;
+}
+.barreTitre{
+	width: 99%;
+	height: 1px;
+	background: white;
+	margin: 0px;
+}
+.CAavatar1{
+	font-size: 2.5vw;
+	margin-left: 3vw;
+	width: 30%;
+	float: left;
+}
+.CAavatar2{
+	font-size: 1.5vw;
+	float: left;
+	margin-top: 2vh;
+	margin-left: 2vw;
+	color: #ffffff;
+	background: none;
+	height: 2vw;
+	border-radius: 5px;
+}
+.CAavatar3{
+	float: left;
+	width: 40%;
+	background: #51bfd0;
+	height: 4vw;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+	margin-left: 30%;
+	border-radius: 5px;
+	font-size: 2vw;
+	cursor: pointer;
+}
+.LJbarre1{
+	width:90%;
+	color: #51bfd0;
+	font-size: 2vw;
+	text-align: center;
+	font-family: OPEN SANS;
+	margin: 2vw auto;
+}
+.LJbarre2{
+	width: 10vw;
+}
+.LJbarre3{
+	width: 3.5vw;
+	height: 7vh;
+	font-size: 1vw;
+	text-align: center;
+}
+.LJbarre4{
+	width: 100%;
+	height: 2px;
+	background: white;
+	margin-left: 0px;
+}
+.LQbarre1{
+	color: #51bfd0;
+	width:90%;
+	font-size: 2vw;
+	text-align: center;
+	font-family: OPEN SANS;
+	margin: 2vw auto;
+}
